@@ -1,0 +1,37 @@
+.wrapper {
+  padding-top: 70px;
+    padding-bottom: 70px;
+  .container {
+    .header-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 75px;
+
+      .msc-section-title::after {
+        content: "";
+        display: block;
+        width: 6.2rem;
+        height: .6rem;
+        background: #eed484;
+        border-radius: 300px;
+        margin: 1.6rem auto 0;
+      }
+    }
+
+    .col-wrapper {
+      align-items: center;
+
+     
+    }
+
+    .list {
+      ul {
+        line-height: 2;
+
+        li::marker {
+          color: #eed484;
+        }
+      }
+    }
+  }
+}

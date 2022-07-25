@@ -1,20 +1,22 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
+import { TerrestrialRoutingModule } from './terrestrial-routing.module';
+import { TerrestrialComponent } from './terrestrial.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
+    TerrestrialComponent,
+    
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule,
+    TerrestrialRoutingModule,
     NgbModule
   ],
   providers: []
 })
-export class HomeModule { }
+export class TerrestrialModule { }
+

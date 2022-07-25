@@ -4,5 +4,9 @@
   margin: 0;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+ }
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';

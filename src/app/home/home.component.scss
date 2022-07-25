@@ -27,6 +27,19 @@
           margin: 1.6rem auto 0;
         }
       }
+      
+      .animation {
+        cursor: pointer;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+      }
+  
+      .animation:hover {
+  
+        top: -15px;
+  
+      }
 
       .logo {
         display: flex;
