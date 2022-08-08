@@ -6,6 +6,7 @@ import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import {InfiniteScrollModule} from "ngx-infinite-scroll";
 
 @NgModule({
   declarations: [
@@ -13,12 +14,13 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     HeaderComponent,
     FooterComponent,
   ],
-  imports: [
-    CommonModule,
-    LayoutRoutingModule,
-    NgbModule,
-    NgxPageScrollCoreModule
-  ],
+    imports: [
+        CommonModule,
+        LayoutRoutingModule,
+        NgbModule,
+        NgxPageScrollCoreModule,
+        InfiniteScrollModule
+    ],
   providers: []
 })
 export class LayoutModule { }
