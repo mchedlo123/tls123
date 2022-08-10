@@ -107,7 +107,7 @@
   }
 
   .third-section {
-    background-color: #f4f6f9;
+    // background-color: #f4f6f9;
     padding-top: 70px;
     padding-bottom: 70px;
 
@@ -140,4 +140,48 @@
       }
     }
   }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+      .row-container {
+          .image-container {
+              padding-bottom: 35px !important;
+          }
+      }
+  }
+  
+}
+
+
+@media only screen and (max-width: 275px) {
+  .wrapper {
+      .image-container {
+        img {
+          width: 200px;
+        }
+      }
+  }
+  
+}
+
+@media only screen and (max-width: 300px) {
+  .wrapper {
+      .header-wrapper {
+        text-align: center;
+      }
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+      .row-container {
+          .header {
+            text-align: center;
+          }
+      }
+  }
+  
 }

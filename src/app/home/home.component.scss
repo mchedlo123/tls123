@@ -97,14 +97,33 @@
 
     .third-container p{
       text-align: justify;
+      font-size: 18px;
+      
     }
 
   }
 }
 
+
+
 }
 
-@media only screen and (max-width: 994px) {
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    .third-container {
+      .logo {
+        text-align: center;
+      }
+      
+      .text p{
+        font-size: 14px !important;
+      }
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
 
   .container {
     .logo img{
