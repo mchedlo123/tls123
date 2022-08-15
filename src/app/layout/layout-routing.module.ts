@@ -29,6 +29,17 @@ const routes: Routes = [
         loadChildren: () =>
           import("../customs/customs.module").then(m => m.CustomsModule)
       },
+      {
+        path : 'train',
+        loadChildren: () =>
+          import("../train/train.module").then(m => m.TrainModule)
+      },
+      {
+        path : 'ship',
+        loadChildren: () =>
+          import("../ship/ship.module").then(m => m.ShipModule)
+      },
+      
     ]
 
   }
